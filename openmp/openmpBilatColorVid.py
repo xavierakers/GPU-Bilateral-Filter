@@ -194,7 +194,6 @@ except subprocess.CalledProcessError as e:
 
 
 total_time = load_time + filter_time + save_time
-print(f"{save_time:.6f}\t Save time")
 print(f"{total_time:.6f}\t Total time")
 print("------------------------------------------------------")
 print(f"Video successfully saved")
