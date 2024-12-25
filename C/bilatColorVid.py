@@ -108,6 +108,7 @@ for idx in range(num_frames):
         mode="constant",
         constant_values=0,
     )
+    frames[idx] = frame_pad
     print('-', end='', flush=True)
 # Close video reader
 cap.release()
